@@ -1,0 +1,219 @@
+{
+  "templates": {
+    "player": {
+      "title": "Player development report",
+      "short": "Player report",
+      "intro": "Every player. A step forward.",
+      "desc": "Record progress, celebrate strengths and agree on the next development focus.",
+      "categories": {
+        "Tactical": [
+          "The player understands their position on the field.",
+          "In their position, do they understand where to position themselves according to which teammate has the ball? (Tactical decision)",
+          "In their position, do they understand where to position themselves according to which opponent has the ball? (Off-ball / Possession – Opponent)",
+          "The player is developing and learning their tactical role.",
+          "For their age, the player has a good understanding of their position on and off the ball."
+        ],
+        "Training": [
+          "Does the player quickly understand the coach’s concepts?",
+          "Does the player train hard?",
+          "Is the player learning to find self-motivation to train and learn the concepts at training?",
+          "Does the player try to excel in different activities?",
+          "Is the player competitive in various games?"
+        ],
+        "Technical": [
+          "Does the player have outstanding technique for their position?",
+          "Does the player use both feet to solve situations?",
+          "Does the player manage their body position correctly before receiving the ball?",
+          "Does the player have a good passing game?",
+          "Is the player developing and learning technical abilities?"
+        ],
+        "Features": [
+          "Is the player dynamic?",
+          "Is the player good at duelling? (1 v 1 or passing game)",
+          "Is the player fearless or willing to take risks?",
+          "Is the player responsible? (Uniform, schedules, game attendance)",
+          "Does the player accept the coach’s decisions?"
+        ]
+      },
+      "notes": [
+        "Coach notes & next development focus",
+        "Player strengths",
+        "Agreed actions & practice plan",
+        "Player feedback"
+      ]
+    },
+    "fitness": {
+      "title": "Fitness report",
+      "short": "Fitness report",
+      "intro": "Build the engine. Support the player.",
+      "desc": "Record observable fitness qualities and repeatable test results. Use the findings to plan appropriate training.",
+      "categories": {
+        "Movement": [
+          "Moves with balance and control",
+          "Changes direction with control",
+          "Uses sound landing mechanics",
+          "Maintains coordination under fatigue"
+        ],
+        "Conditioning": [
+          "Sustains effort through training",
+          "Recovers between repeated efforts",
+          "Shows speed over short distances",
+          "Maintains quality during repeated sprints"
+        ],
+        "Habits": [
+          "Completes the warm-up with focus",
+          "Uses correct technique in conditioning drills",
+          "Communicates fatigue or discomfort",
+          "Shows consistency in fitness work"
+        ]
+      },
+      "notes": [
+        "Fitness strengths",
+        "Development priorities",
+        "Agreed conditioning plan",
+        "Test conditions & observations"
+      ]
+    },
+    "tactical": {
+      "title": "Tactical report",
+      "short": "Tactical report",
+      "intro": "See the game. Make the difference.",
+      "desc": "Assess decision-making in and out of possession, then choose clear tactical actions for the next session.",
+      "categories": {
+        "Possession": [
+          "Scans before receiving the ball",
+          "Creates useful passing angles",
+          "Chooses when to pass, carry or dribble",
+          "Maintains appropriate team width and depth",
+          "Recognises opportunities to break lines"
+        ],
+        "Defending": [
+          "Understands their defensive role",
+          "Applies pressure at the right moment",
+          "Provides cover and balance",
+          "Tracks runners and protects space",
+          "Communicates with teammates"
+        ],
+        "Transitions": [
+          "Reacts quickly after losing possession",
+          "Recognises when to counter-press or recover",
+          "Offers an outlet after regaining possession",
+          "Makes purposeful forward runs",
+          "Supports the team shape during transitions"
+        ]
+      },
+      "notes": [
+        "Match / session context & observations",
+        "Tactical strengths",
+        "Priority decisions to improve",
+        "Next-session actions"
+      ]
+    },
+    "parent": {
+      "title": "Parent report",
+      "short": "Parent report",
+      "intro": "A stronger connection. A happier player.",
+      "desc": "A parent or carer perspective on the player’s experience, enjoyment and support needs. Honest feedback helps the coaching team.",
+      "categories": {
+        "Experience": [
+          "My child enjoys attending training",
+          "My child feels included in the team",
+          "My child feels comfortable asking the coach for help",
+          "The training environment feels supportive"
+        ],
+        "Communication": [
+          "I understand the training and match schedule",
+          "I receive timely and clear club updates",
+          "I understand my child’s development goals",
+          "I know how to contact the coaching team"
+        ],
+        "Development": [
+          "My child is growing in confidence",
+          "My child shows enthusiasm for football",
+          "My child is developing positive team habits",
+          "The programme supports my child’s learning"
+        ]
+      },
+      "notes": [
+        "What is working well for your child?",
+        "Any concerns or support needs?",
+        "Your child’s goals & feedback",
+        "Questions or suggestions for the coaching team"
+      ]
+    },
+    "coaches": {
+      "title": "Coaches report",
+      "short": "Coaches report",
+      "intro": "Reflect on the session. Raise the standard.",
+      "desc": "Review coaching practice, session delivery and the team’s response. Record evidence and agree useful next steps.",
+      "categories": {
+        "Planning": [
+          "Sets clear, age-appropriate learning objectives",
+          "Prepares suitable activities and progressions",
+          "Uses equipment, space and time effectively",
+          "Plans adaptations for different player needs"
+        ],
+        "Delivery": [
+          "Gives clear explanations and demonstrations",
+          "Uses helpful questions and specific feedback",
+          "Keeps players engaged and active",
+          "Adapts the session in response to learning"
+        ],
+        "Environment": [
+          "Builds respectful relationships with players",
+          "Creates an inclusive and supportive environment",
+          "Reinforces appropriate behaviour consistently",
+          "Communicates professionally with families and staff"
+        ],
+        "Reflection": [
+          "Checks whether players understood the objective",
+          "Recognises what worked and what needs changing",
+          "Acts on feedback from other coaches",
+          "Sets a practical goal for the next session"
+        ]
+      },
+      "notes": [
+        "Session objectives & evidence",
+        "What worked well?",
+        "What could be improved?",
+        "Agreed coaching development actions"
+      ]
+    }
+  },
+  "behaviours": {
+    "Attitude": [
+      "Positive",
+      "Great willingness",
+      "Optimistic"
+    ],
+    "Resilience": [
+      "Acceptance of defeats",
+      "Overcoming challenges",
+      "Emotionally strong"
+    ],
+    "Teamwork": [
+      "Helping others",
+      "Supporting",
+      "Caring"
+    ],
+    "Attendance": [
+      "Trainings",
+      "Games",
+      "Events"
+    ]
+  },
+  "exercises": [
+    [
+      "Technique Individual",
+      "20 sec"
+    ],
+    [
+      "Team Passing Challenge",
+      "1 min"
+    ],
+    [
+      "Accuracy",
+      "5 m · 10 m · 15 m"
+    ]
+  ]
+}

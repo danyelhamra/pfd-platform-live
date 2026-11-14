@@ -1,0 +1,19 @@
+project_id = "pfd-platform"
+
+[functions.pfd-owner-clubs]
+verify_jwt = false
+
+[functions.pfd-owner-dashboard]
+verify_jwt = false
+
+[functions.pfd-club-teams]
+verify_jwt = false
+
+[functions.pfd-memberships]
+verify_jwt = false
+
+[functions.pfd-club-workspace]
+verify_jwt = false
+
+[functions.pfd-account-register]
+verify_jwt = true

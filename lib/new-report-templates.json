@@ -1,0 +1,369 @@
+{
+  "performance": {
+    "title": "Player Performance Report",
+    "short": "Player Performance",
+    "intro": "Review the performance. Guide the next step.",
+    "desc": "Record match contributions, playing time and development observations. Ratings use the same 1\u20135 scale across assessments.",
+    "categories": {
+      "Performance": [
+        "Overall player performance"
+      ]
+    },
+    "notes": [
+      "Performance strengths",
+      "Development priorities",
+      "Injury details & follow-up",
+      "Next-match focus"
+    ],
+    "fields": [
+      {
+        "key": "name",
+        "label": "Player name",
+        "type": "text"
+      },
+      {
+        "key": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "key": "opposition",
+        "label": "Opposition name",
+        "type": "text"
+      },
+      {
+        "key": "position",
+        "label": "Position",
+        "type": "text"
+      },
+      {
+        "key": "number",
+        "label": "Shirt number",
+        "type": "number",
+        "min": 0,
+        "max": 999,
+        "step": 1
+      },
+      {
+        "key": "minutes_played",
+        "label": "Minutes played",
+        "type": "number",
+        "unit": "min",
+        "min": 0,
+        "max": 240,
+        "step": 0.1
+      },
+      {
+        "key": "goals",
+        "label": "Goals",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "assists",
+        "label": "Assists",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "yellow_cards",
+        "label": "Yellow cards",
+        "type": "number",
+        "min": 0,
+        "max": 2,
+        "step": 1
+      },
+      {
+        "key": "red_cards",
+        "label": "Red cards",
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      {
+        "key": "injury",
+        "label": "Injury / discomfort",
+        "type": "text"
+      },
+      {
+        "key": "shots",
+        "label": "Shots",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "shots_on_target",
+        "label": "Shots on target",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "key_passes",
+        "label": "Key passes",
+        "type": "number",
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      {
+        "key": "tackles",
+        "label": "Tackles",
+        "type": "number",
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      {
+        "key": "interceptions",
+        "label": "Interceptions",
+        "type": "number",
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      {
+        "key": "saves",
+        "label": "Saves",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      }
+    ],
+    "behaviours": {},
+    "exercises": []
+  },
+  "match_review": {
+    "title": "Match Review Report",
+    "short": "Match Review",
+    "intro": "Reflect as a team. Improve together.",
+    "desc": "Record the match context, outcome and team standards. Individual ratings are linked to player accounts in the selected team.",
+    "team_report": true,
+    "categories": {
+      "Team standards": [
+        "Team teamwork",
+        "Team fairplay",
+        "Team discipline",
+        "Team culture"
+      ]
+    },
+    "notes": [
+      "Match issues & incidents",
+      "What worked well?",
+      "What needs improvement?",
+      "Notes & next-session actions"
+    ],
+    "fields": [
+      {
+        "key": "name",
+        "label": "Team name",
+        "type": "text"
+      },
+      {
+        "key": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "key": "opposition",
+        "label": "Opposition",
+        "type": "text"
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "key": "weather",
+        "label": "Weather / pitch conditions",
+        "type": "text"
+      },
+      {
+        "key": "score_for",
+        "label": "Our score",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "score_against",
+        "label": "Opposition score",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "goals",
+        "label": "Goals / scorers",
+        "type": "text"
+      },
+      {
+        "key": "assists",
+        "label": "Assists / providers",
+        "type": "text"
+      },
+      {
+        "key": "formation",
+        "label": "Formation",
+        "type": "text"
+      },
+      {
+        "key": "match_type",
+        "label": "Competition / match type",
+        "type": "text"
+      }
+    ],
+    "behaviours": {},
+    "exercises": []
+  },
+  "gps": {
+    "title": "GPS Data Report",
+    "short": "GPS Data",
+    "intro": "Understand the load. Support development.",
+    "desc": "Record measured GPS values with explicit units. Leave unavailable measurements blank; an empty field is not zero.",
+    "categories": {},
+    "notes": [
+      "GPS data / additional measurements",
+      "Session context & conditions",
+      "Load observations",
+      "Follow-up actions"
+    ],
+    "fields": [
+      {
+        "key": "name",
+        "label": "Player name",
+        "type": "text"
+      },
+      {
+        "key": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "key": "opposition",
+        "label": "Opposition name",
+        "type": "text"
+      },
+      {
+        "key": "minutes_played",
+        "label": "Minutes played",
+        "type": "number",
+        "unit": "min",
+        "min": 0,
+        "max": 240,
+        "step": 0.1
+      },
+      {
+        "key": "total_distance_m",
+        "label": "Total distance",
+        "type": "number",
+        "unit": "m",
+        "min": 0,
+        "max": 100000,
+        "step": 0.1
+      },
+      {
+        "key": "high_speed_distance_m",
+        "label": "High-speed running distance",
+        "type": "number",
+        "unit": "m",
+        "min": 0,
+        "max": 100000,
+        "step": 0.1
+      },
+      {
+        "key": "sprint_distance_m",
+        "label": "Sprint distance",
+        "type": "number",
+        "unit": "m",
+        "min": 0,
+        "max": 100000,
+        "step": 0.1
+      },
+      {
+        "key": "top_speed_kmh",
+        "label": "Top speed",
+        "type": "number",
+        "unit": "km/h",
+        "min": 0,
+        "max": 60,
+        "step": 0.1
+      },
+      {
+        "key": "average_speed_kmh",
+        "label": "Average speed",
+        "type": "number",
+        "unit": "km/h",
+        "min": 0,
+        "max": 60,
+        "step": 0.1
+      },
+      {
+        "key": "sprint_count",
+        "label": "Sprint count",
+        "type": "number",
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      {
+        "key": "accelerations",
+        "label": "Accelerations",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "step": 1
+      },
+      {
+        "key": "decelerations",
+        "label": "Decelerations",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "step": 1
+      },
+      {
+        "key": "player_load",
+        "label": "Player load",
+        "type": "number",
+        "unit": "AU",
+        "min": 0,
+        "max": 10000,
+        "step": 0.1
+      },
+      {
+        "key": "rpe",
+        "label": "Player-reported effort",
+        "type": "number",
+        "unit": "0\u201310",
+        "min": 0,
+        "max": 10,
+        "step": 0.1
+      },
+      {
+        "key": "device",
+        "label": "Device / source",
+        "type": "text"
+      },
+      {
+        "key": "speed_threshold",
+        "label": "High-speed / sprint threshold definition",
+        "type": "text"
+      }
+    ],
+    "behaviours": {},
+    "exercises": []
+  }
+}

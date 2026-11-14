@@ -1,0 +1,371 @@
+[
+  {
+    "key": "clubs.view",
+    "category": "Club & people",
+    "label": "View club details",
+    "description": "Assigned active club only.",
+    "available": true,
+    "owner_only": false,
+    "defaults": [
+      "club_admin"
+    ],
+    "sort_order": 0
+  },
+  {
+    "key": "clubs.create",
+    "category": "Platform administration",
+    "label": "Create clubs",
+    "description": "Platform owner only.",
+    "available": true,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 1
+  },
+  {
+    "key": "clubs.manage",
+    "category": "Platform administration",
+    "label": "Manage clubs and club administrators",
+    "description": "Platform owner only.",
+    "available": true,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 2
+  },
+  {
+    "key": "users.view_all",
+    "category": "Platform administration",
+    "label": "View all platform accounts",
+    "description": "Platform owner only.",
+    "available": true,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 3
+  },
+  {
+    "key": "roles.manage",
+    "category": "Platform administration",
+    "label": "Manage roles and permissions",
+    "description": "Platform owner only.",
+    "available": true,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 4
+  },
+  {
+    "key": "teams.view",
+    "category": "Club & people",
+    "label": "View teams",
+    "description": "Assigned club for club admins; joined teams for coaches and players.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 5
+  },
+  {
+    "key": "teams.create",
+    "category": "Club & people",
+    "label": "Create and edit teams",
+    "description": "Assigned club only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin"
+    ],
+    "sort_order": 6
+  },
+  {
+    "key": "coaches.approve",
+    "category": "Club & people",
+    "label": "Approve coaches",
+    "description": "Assigned club only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin"
+    ],
+    "sort_order": 7
+  },
+  {
+    "key": "players.approve",
+    "category": "Club & people",
+    "label": "Approve player requests",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 8
+  },
+  {
+    "key": "members.view",
+    "category": "Club & people",
+    "label": "View member directory",
+    "description": "Assigned club or coached team only; no platform directory.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 9
+  },
+  {
+    "key": "reports.view_team",
+    "category": "Reports",
+    "label": "View team player reports",
+    "description": "Assigned club or coached team only; players cannot browse teammates\u2019 private reports.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 10
+  },
+  {
+    "key": "reports.create",
+    "category": "Reports",
+    "label": "Create player reports",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 11
+  },
+  {
+    "key": "reports.view_own",
+    "category": "Reports",
+    "label": "View own reports",
+    "description": "Reports belonging to the signed-in account only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 12
+  },
+  {
+    "key": "reports.self_assess",
+    "category": "Reports",
+    "label": "Submit self-assessments",
+    "description": "The signed-in account\u2019s own assessments only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 13
+  },
+  {
+    "key": "homework.assign",
+    "category": "Homework",
+    "label": "Assign homework",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 14
+  },
+  {
+    "key": "homework.review",
+    "category": "Homework",
+    "label": "Review submissions and give feedback",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 15
+  },
+  {
+    "key": "homework.view",
+    "category": "Homework",
+    "label": "View assigned homework",
+    "description": "Homework assigned to the account or its teams only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 16
+  },
+  {
+    "key": "homework.submit",
+    "category": "Homework",
+    "label": "Submit homework and videos",
+    "description": "Own submissions only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 17
+  },
+  {
+    "key": "events.manage",
+    "category": "Training & games",
+    "label": "Manage training and games",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 18
+  },
+  {
+    "key": "events.view",
+    "category": "Training & games",
+    "label": "View training and games",
+    "description": "Joined teams only, or assigned club for club admins.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 19
+  },
+  {
+    "key": "plans.manage",
+    "category": "Training & games",
+    "label": "Create training plans and templates",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 20
+  },
+  {
+    "key": "library.view",
+    "category": "Development library",
+    "label": "Browse shared resources",
+    "description": "Resources shared with the account\u2019s club or teams.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 21
+  },
+  {
+    "key": "library.manage_club",
+    "category": "Development library",
+    "label": "Manage club resources",
+    "description": "Assigned club only; does not grant control of the PFD-wide library.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin"
+    ],
+    "sort_order": 22
+  },
+  {
+    "key": "announcements.publish",
+    "category": "Announcements",
+    "label": "Publish announcements",
+    "description": "Assigned club or coached team only.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach"
+    ],
+    "sort_order": 23
+  },
+  {
+    "key": "announcements.view",
+    "category": "Announcements",
+    "label": "View announcements",
+    "description": "Announcements shared with the account\u2019s club or teams.",
+    "available": false,
+    "owner_only": false,
+    "defaults": [
+      "club_admin",
+      "coach",
+      "player"
+    ],
+    "sort_order": 24
+  },
+  {
+    "key": "requests.review_all",
+    "category": "Platform administration",
+    "label": "Review platform access requests",
+    "description": "Platform owner only.",
+    "available": false,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 25
+  },
+  {
+    "key": "reports.view_all",
+    "category": "Platform administration",
+    "label": "View reports across all clubs",
+    "description": "Platform owner only.",
+    "available": false,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 26
+  },
+  {
+    "key": "library.manage_platform",
+    "category": "Platform administration",
+    "label": "Manage the PFD development library",
+    "description": "Platform owner only.",
+    "available": false,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 27
+  },
+  {
+    "key": "settings.manage",
+    "category": "Platform administration",
+    "label": "Manage platform settings",
+    "description": "Platform owner only.",
+    "available": true,
+    "owner_only": true,
+    "defaults": [],
+    "sort_order": 28
+  },
+  {
+    "key": "members.approve",
+    "category": "Club & people",
+    "label": "Approve club membership",
+    "description": "Approve admission to an assigned club; this does not assign a team or grant Owner access.",
+    "available": true,
+    "owner_only": false,
+    "sort_order": 29,
+    "defaults": [
+      "club_admin"
+    ]
+  }
+]
